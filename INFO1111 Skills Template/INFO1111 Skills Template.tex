@@ -1,0 +1,442 @@
+\documentclass[a4paper, 11pt]{report}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{fix-cm}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage[english]{babel}
+
+\geometry{ margin=30mm }
+\counterwithin{subsection}{section}
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\thesection\arabic{subsection}.}
+\usepackage{tocloft}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftsecindent}{2.2em}
+\setlength{\cftsubsecindent}{4.2em}
+\setlength{\cftsecnumwidth}{2em}
+\setlength{\cftsubsecnumwidth}{2.5em}
+
+
+\begin{document}
+\titleformat{\section}
+{\normalfont\fontsize{15}{0}\bfseries}{\thesection}{1em}{}
+\titlespacing{\section}{0cm}{0.5cm}{0.15cm}
+\titleformat{\subsection}
+{\normalfont\fontsize{13}{0}\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing{\section}{0cm}{0.5cm}{0.15cm}
+
+%=======================================================================================
+
+% #########################
+% IMPORTANT - Add student names here!
+% e.g. \newcommand{\stud1}{LOWE, David}
+\newcommand{\studA}{{FAMNAME1, givenName1}}
+\newcommand{\studB}{{FAMNAME2, givenName2}}
+\newcommand{\studC}{{FAMNAME3, givenName3}}
+\newcommand{\studD}{{FAMNAME4, givenName4}}
+%
+% IMPORTANT - Then give your SIDs
+\newcommand{\sidA}{{01234567}}
+\newcommand{\sidB}{{01234567}}
+\newcommand{\sidC}{{01234567}}
+\newcommand{\sidD}{{01234567}}
+%
+% IMPORTANT - And then update which major each student will focus on
+\newcommand{\majA}{{Computer Science}}
+\newcommand{\majB}{{Data Science}}
+\newcommand{\majC}{{SW Development}}
+\newcommand{\majD}{{Cyber Security}}
+% #########################
+
+
+\pagenumbering{Alph}
+\begin{titlepage}
+\begin{flushright}
+\includegraphics[width=4cm]{USyd}\\[1cm]
+\end{flushright}
+
+\begin{centering}
+\textbf{\huge INFO1111: Computing 1A Professionalism}\\[0.75cm]
+\textbf{\huge 2024 Semester 1}\\[2cm]
+\textbf{\huge Skills: Team Project Report}\\[2cm]
+
+\textbf{\large Submission number: ?? Add your details}\\[0.5cm]
+\textbf{\large Github link: ?? Add your details}\\[0.75cm]
+\textbf{\huge Team Members:}\\[0.75cm]
+
+\begin{tabular}{|p{0.25\textwidth}|p{0.13\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.22\textwidth}|}
+	\hline
+	\multirow{2}{*}{Name} & \multirow{2}{*}{Student ID} & Target * & Target * & \multirow{2}{*}{Selected Major} \\
+	 & & Foundation & Advanced & \\
+	\hline
+	\hline
+	\raggedright{\studA} & \sidA & A & NA & \majA \\
+	\hline
+	\raggedright{\studB} & \sidB & A & NA & \majB \\
+	\hline
+	\raggedright{\studC} & \sidC & A & NA & \majC \\
+	\hline
+	\raggedright{\studD} & \sidD & A & NA & \majD \\
+	\hline
+\end{tabular}
+\\[0.5cm]
+\end{centering}
+
+* Use the following codes:
+\begin{itemize}
+\setlength\itemsep{0em}
+\item NA = Not attempting in this submission
+\item A = Attempting (not previously attempting)
+\item AW = Attempting (achieved weak in a previous submission) 
+\item AG = Attempting (achieved good in a previous submission)
+\item S = Already achieved strong in a previous submission
+\end{itemize}
+
+\thispagestyle{empty}
+\end{titlepage}
+\pagenumbering{arabic}
+
+
+%=======================================================================================
+
+\tableofcontents
+
+%=======================================================================================
+
+\newpage
+\section*{Instructions}
+
+\textbf{Important}: This section should be removed prior to submission.
+
+You should use this \LaTeX\ template to generate your team project report. Keep in mind the following key points:
+\begin{itemize}
+	\item \textbf{Selecting a major}: Each team member must select one of the computing degree majors (a different one for each student) - i.e. Computer Science; Data Science; Software Development; Cyber Security. If there are more than four members in your team then your tutor will suggest a fifth alternative. The choice for each student should be included in the table on the cover page.
+	\item \textbf{Teamwork}: Whilst the team project is just that -- a team project -- it has been designed to also allow different members of the team to achieve different outcomes. We do expect you to work together as a team -- i.e. your team can only submit a single report. There will be some sections that need to be worked on as a team, and some sections that are done individually. This means that your team will need to collaborate to combine your individual components for each submission. This collaborative aspect is a requirement for both the foundation and advanced tasks (since the two tasks are submitted using this one template). The only exception to this is where a member of the team has already achieved the level they are targeting (e.g. OK for the Foundation task) in a previous submission and has decided to not attempt higher levels, and so is not contributing anything further (this should be obvious because no target is indicated for that student on the cover page).
+	\item \textbf{Team problems}: If you do come across problems working together then the first step should be to discuss this with your tutor. You should do this as soon as possible, and not wait until it is too late for your tutor to address any problems.
+	\item \textbf{Choosing Levels}: Whilst the report is compiled as a team, for each submission each team member can individually attempt the foundation task, advanced task or neither, (though you need to achieve a ''STRONG'' on the foundation task before being eligible to attempt the advanced task). Each team member will then be individually assessed for the levels they have attempted.\\ 
+	For example, in the first submission, one team member attempted only the foundation task and the other three all attempted both the foundation task and the advanced task. For the one who attempted only the foundation task, they were not successful in achieving an ''OK'' (a pass) or a ''STRONG'' (opportunity to proceed to advanced task). In the second submission, they then reattempted the foundation task (successful – ''STRONG''). For the third and final submission they could attempt the advanced task, or even just choose to not submit anything further and remain at the foundation ''STRONG'' rating.
+	\item \textbf{Minimum requirement}: Remember that in order to pass the unit, you must achieve at least foundation – ''OK'' rating by the end of the third submission.
+	\item \textbf{Assessment}: In order to attempt the advanced – ''OK'' or ''STRONG'' you must first have achieved foundation – ''STRONG''. This means that we will not assess any attempts made on the advanced task until the ''STRONG'' rating has been achieved on the foundation task. 
+	\item \textbf{Using this template}: When completing each section, you should remove the explanation text and replace it with your material. For each submission, each individual must complete their subsections and then collectively compile and submit the report.
+	\item \textbf{Referencing}: You should also ensure that any resources you use are suitably referenced, and references are included into the reference list at the end of this document. You should use the IEEE reference style \cite{usyd2} (the reference included here shows you how this can be easily achieved).
+\end{itemize}
+
+
+%=======================================================================================
+
+\newpage
+\section{Task 1 (Foundation): Core Skills}
+
+Throughout your Computing degree we will help you learn a range of new skills. Once you graduate however you will need to continue to learn new languages, new tools, new applications, etc. Task 1 focuses on core technical skills (related to \LaTeX\ and Git) and the key technical skills used in different computing jobs. Each member of the team should individually complete their subsection below. You should begin by allocating to each team member a different major to focus on (i.e. one of: Computer Science; Data Science; Software Development; Cyber Security). If you have a fifth member, then your tutor will suggest a fifth topic to cover. This allocation should be specified above (see lines 37-56 in the LaTeX file).
+
+For this section each member of your team needs to select one of the majors provided and identify 3 key technical skills that you would need to be able to work in the industry of your allocated major. You should then put these in order from most required to least required, and for each one explain why it is a key skill required for the industry of your major. You must use the skills framework for the information age ''SFIA'' to identify at least 2 out of the 3 key tech skills. (Target = $\sim$100 words per skill = $\sim$300 words total, per student).
+
+Begin by looking at the list of skills identified within SFIA (Skills Framework for the Information Age) ~\cite{sfia}. Then select two skills from the complete list. The skills you select should be skills you believe are the most required key technical skills relevant to the major you have selected. You should explain why each skill is a key technical skill and necessary for that major.
+
+You will need to integrate your information into the shared collaborative LaTeX document and compile the result.\\[2mm]
+
+
+
+\textbf{OVERALL REQUIREMENTS:}
+
+To achieve an ''OK'' rating for this task you must individually accomplish the following:
+\begin{itemize}
+\item Each member of your team \textbf{has been} allocated a different major (Computer Science, Data Science, Software Development, Cyber Security). 
+\item Each member of your team \textbf{has identified} 3 key technical skills that you would need to be able to work in the industry of your allocated major.
+	\begin{itemize}
+	\item These must be in order from most required to least required.
+	\item Each skill must have an explanation on why it is a key skill required for the industry of the major ($\sim$100 words per skill).
+	\item At least 2 out of the 3 key tech skills must be identified from the skills framework for the information age SFIA.
+	\end{itemize}
+\item Github, LaTeX \& LaTeX
+	\begin{itemize}
+	\item Your team has created a team repository on Github for the project and put a copy of the LaTeX template, bib file, and image file into the team repository (only needs to be done by one member of your team).
+	\item The information for ‘Task 1’ has been compiled into the shared collaborative LaTeX document using the template provided on Canvas with your team members sections - you have edited the LaTeX template to include your chosen major and the 3 key tech skills for the major.
+	\item You have cloned the team repository to your local machine.
+	\item Provide evidence that you can compile from the command line (provide screenshots of the command entered and output).
+	\item Provide evidence that you can commit to your local repo (provide screenshots of the steps taken to commit to their local repo).
+	\end{itemize}
+\item Referencing
+	\begin{itemize}
+	\item You have provided in-text references (IEEE) to support your claims or where they gathered the information from.
+	\item You have a reference list following the IEEE referencing guidelines.
+	\item Some common things to look for to see whether your have correctly followed the referencing guide are:
+		\begin{itemize}
+		\item Sources are listed in alphabetical order
+		\item The sources you have listed are only the sources that are present in-text.
+		\item All sources seen in-text are included in the reference list.
+		\item You followed the correct convention for references that don’t have author’s details or multiple sources have the same author and year of publication
+		\item You have included the required information for the source type as outlined in the guide.
+		\item Sources are not a list (i.e. dotpoints)
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+To achieve a ''STRONG'' rating, you must individually accomplish all of the above in addition to the following:\\
+Demonstrated the following to your tutor during the tutorial:
+\begin{itemize}
+\item You are able to retrieve your team’s shared repo
+\item You are able to make changes, recompile, commit changes, and push back to repo.
+\item Note: you should also provide screen-shots of relevant actions taken to make changes, recompile etc. does not require you to provide evidence of detailing conflicts.
+\end{itemize}
+
+
+% =======================================================
+
+\subsection{Skills for \majA: \studA}
+
+Your text goes here
+
+\subsection{Skills for \majB: \studB}
+
+Your text goes here
+
+\subsection{Skills for \majC: \studC}
+
+Your text goes here
+
+\subsection{Skills for \majD: \studD}
+
+Your text goes here
+
+
+% ========================================================
+
+\newpage
+\section{Task 2 (Advanced): Advanced Skills}
+
+Task 2 contains two components (both required).\\[2mm]
+
+\textbf{Component 1: Exploration of Tech Tools}
+
+The first component focuses on exploration of relevant tech tools used within professional computing employment. All companies make use of a range of technologies and tools (often as part of a tech stack). These tools might be implementation languages; design tools; data analysis tools; collaboration technologies, etc. Each student should identify two tools that are widely used in industry, and which relate to the major you are focusing on for this project. You should then describe:
+
+\begin{enumerate}
+\item What are the two tools you have identified for your chosen major
+\item The main functionality of those tools;
+\item The ways in which those tools are used in the industry of your chosen major;
+\item Any weaknesses or limitations of those tools.
+\end{enumerate}
+
+This task consists of two parts:
+
+\begin{enumerate}
+\item \textbf{Part A}: Generate a set of questions that you can put to ChatGPT in order to obtain answers to each of the above four questions. Using ChatGPT, then generate the answers for each of the two tools. You must include in the report below both the questions that you posed to ChatGPT, and the answers that it provided.  (100–250 words each).
+\item \textbf{Part B}: For each of the four answers from Part A, assess the answer that ChatGPT provided and explain to us why you agree or disagree with the answer (100 words for each question above).
+\end{enumerate}
+
+
+As examples of the tools which might be selected (which you shouldn’t now use):
+\begin{itemize}
+\item Computer Science: Eclipse.
+\item Software Development: GitHub. 
+\item Cyber Security: Wireshark. 
+\item Data Science: Hadoop.
+\end{itemize}
+
+Note also that no two students in the same tutorial should choose the same tools, so your tutor will maintain a list of those that have already been selected. You should therefore check this list with your tutor and then confirm your choice with your tutor prior to researching your proposed tools and spending time writing about them. (Target = $\sim$200-400 words per tool).\\[2mm]
+
+\textbf{Component 2: Advanced LaTeX and Git Skills}
+
+The second component of Task 2 focuses on more advanced technical skills in LaTeX and Git. The following is a list of advanced Git and LaTeX skills/features. Each student in your team that is attempting the Advanced task should select a different pair of items from each list (e.g. you might choose ''Resetting and Tags'' from the git list, and ''Cross-referencing and Custom commands'' from the LaTeX list). You then need to demonstrate actual use of each item (either through activity in Git, or through including items in this report). (Target = $\sim$100-200 words per student for each feature).
+
+\begin{enumerate}
+\item{Git}
+	\begin{enumerate}
+	\item Rebasing and Ignoring files 
+	\item Forking and Special files 
+	\item Resetting and Tags 
+	\item Reverting and Automated merges 
+	\item Hooks and Tags 
+	\end{enumerate}
+\item LaTeX 
+	\begin{enumerate}
+	\item Cross-referencing and Custom commands 
+	\item Footnotes/margin notes and creating new environments 
+	\item Floating figures and editing style sheets 
+	\item Graphics and advanced mathematical equations 
+	\item Macros and hyperlinks
+	\end{enumerate}
+\end{enumerate}
+~\\[2mm]
+
+\textbf{OVERALL REQUIREMENTS:}
+
+To achieve an ''OK'' rating for this task you must individually accomplish the following:
+\begin{itemize}
+\item \textbf{Component 1 - Exploration of Tech Tools}
+	\begin{itemize}
+	\item Identified two tools that are widely used in industry, and which relate to the major chosen for this project.
+		\begin{itemize}
+		\item The two tools selected are not the same as the tools selected by other students in the tutorial. 
+		\item The two tools selected are relevant to the major chosen.
+		\end{itemize}
+	\item Answer the following questions as instructed in 'Part A' \& 'Part B':
+		\begin{itemize}
+		\item What are the two tools you have identified for your chosen major
+		\item 3 main functionality of each of the identified tools
+		\item The ways in which those tools are used in the industry of your chosen major;
+		\item 2 weaknesses or limitations of each of the tools
+		\end{itemize}
+	\item \textbf{Part A}: Generate a set of questions (minimum 5 questions) that can be put to ChatGPT in order to obtain answers to each of the above four questions. Using ChatGPT, then generate the answers for each of the two tools. You must include in the report below both the questions that you posed to ChatGPT, and the answers that it provided. (100 - 250 words for each question)
+	\item \textbf{Part B}: For each of the four answers from Part A, assess the answer that ChatGPT provided and explain to us why they agree or disagree with the answer (100 words for each question above).
+	\end{itemize}
+\item \textbf{Component 2 - Advanced LaTex \& Git Skills}
+	\begin{itemize}
+	\item Each member of the team has selected one pair of items from each list below and demonstrate actual use of each item (i.e. a Git item and a LaTeX item).
+	\item \textbf{Git}
+		\begin{itemize}
+		\item Rebasing and Ignoring files
+		\item Forking and Special files
+		\item Resetting and Tags
+		\item Reverting and Automated merges
+		\item Hooks and Tags
+		\end{itemize}
+	\item \textbf{LATEX}
+		\begin{itemize}
+		\item Cross-referencing and Custom commands
+		\item Footnotes/margin notes and creating new environments
+		\item Floating figures and editing style sheets
+		\item Graphics and advanced mathematical equations
+		\item Macros and hyperlinks
+		\end{itemize}
+	\item This means no two members of the team have not chosen the same item from either of the lists above.
+	\item You have demonstrated the use of your selected items either through activity in Git, or through including items in this report.
+	\item This means for Git items:
+		\begin{itemize}
+		\item You have added your tutor to your git repository and when they view it they are able to see your activity that demonstrates the use of your selected items (e.g. forks, hooks, tags, merges etc.).
+		\item You have included screenshots and annotations (where necessary) in your report and provided an explanation of $\sim$100 words of your use of advanced Git features.
+		\end{itemize}
+	\item and for LaTeX items:
+		\begin{itemize}
+		\item You have included items you have chosen in your LaTeX report document submission and the tutor is able to clearly see it (e.g. the pdf document written in LaTeX has hyperlinks, macros, cross referencing etc. included in it).
+		\item You have included screenshots and annotations (where necessary) in your report and provided an explanation of $\sim$100 words of your use of advanced LaTeX features.
+		\end{itemize}
+	\end{itemize}
+\item Referencing
+	\begin {itemize}
+	\item You have provided in-text references (IEEE) to support your claims or where they gathered the information from.
+	\item You have a reference list following the IEEE referencing guidelines.
+		\begin{itemize}
+		\item Some common things to look for to see whether your have correctly followed the referencing guide are:
+		\item Sources are listed in alphabetical order
+		\item The sources you have listed are only the sources that are present in-text.
+		\item All sources seen in-text are included in the reference list.
+		\item You followed the correct convention for references that don’t have author’s details or multiple sources have the same author and year of publication
+		\item You have included the required information for the source type as outlined in the guide.
+		\item Sources are not a list (i.e. dotpoints)
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+To achieve a ''STRONG'' rating you must accomplish all of the above in addition to the following:
+\begin{itemize}
+\item The answers provided to the 4 questions (component 1b) use ChatGPT and independent research and analysis is excellent, showing a deep understanding of industry.
+\item You have used advanced Git features such as branching when demonstrating the items you selected (component 2a).
+\end{itemize}
+
+
+
+% ========================================================
+
+\subsection{Tools and Skills for \majA: \studA}
+
+\subsubsection{Part A: Exploration of tech tools}
+
+Your text goes here
+
+\subsubsection{Part B: Analysis}
+
+Your text goes here
+
+\subsubsection{Technical Skills (LaTeX and Git)}
+
+Your text goes here
+
+
+% ========================================================
+
+\subsection{Tools and Skills for \majB: \studB}
+
+\subsubsection{Part A: Exploration of tech tools}
+
+Your text goes here
+
+\subsubsection{Part B: Analysis}
+
+Your text goes here
+
+\subsubsection{Technical Skills (LaTeX and Git)}
+
+Your text goes here
+
+% ========================================================
+
+\subsection{Tools and Skills for \majC: \studC}
+
+\subsubsection{Part A: Exploration of tech tools}
+
+Your text goes here
+
+\subsubsection{Part B: Analysis}
+
+Your text goes here
+
+\subsubsection{Technical Skills (LaTeX and Git)}
+
+Your text goes here
+
+
+% ========================================================
+
+\subsection{Tools and Skills for \majD: \studD}
+
+\subsubsection{Part A: Exploration of tech tools}
+
+Your text goes here
+
+\subsubsection{Part B: Analysis}
+
+Your text goes here
+
+\subsubsection{Technical Skills (LaTeX and Git)}
+
+Your text goes here
+
+
+%=======================================================================================
+
+\newpage
+\section{Submission contribution overview}
+
+For each submission, outline the approach taken to your teamwork, how you combined the various contributions, and whether there were any significant variations in the levels of involvement. (Target = $\sim$100-300 words).
+
+\subsection{Submission 1 contribution overview}
+
+As above, for submission 1
+
+\subsection{Submission 2 contribution overview}
+
+As above, for submission 2
+
+\subsection{Submission 3 contribution overview}
+
+As above, for submission 3
+
+
+%=======================================================================================
+
+\newpage
+
+\bibliographystyle{ieeetran}
+\bibliography{main}
+
+\end{document}
+\end{report}
