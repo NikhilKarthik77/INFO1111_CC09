@@ -1,0 +1,27 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1.}Task 1 (Foundation): Core Skills}{4}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1.}Skills for {Computer Science}: {FAMNAME1, givenName1}}{5}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2.}Skills for {Data Science}: {KARTHIK, Nikhil}}{5}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3.}Skills for {SW Development}: {FAMNAME3, givenName3}}{5}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4.}Skills for {Cyber Security}: {FAMNAME4, givenName4}}{5}{subsection.0.1.4}%
+\contentsline {section}{\numberline {2.}Task 2 (Advanced): Advanced Skills}{6}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1.}Tools and Skills for {Computer Science}: {FAMNAME1, givenName1}}{9}{subsection.0.2.1}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{9}{subsubsection*.1}%
+\contentsline {subsubsection}{Part B: Analysis}{9}{subsubsection*.2}%
+\contentsline {subsubsection}{Technical Skills (LaTeX and Git)}{9}{subsubsection*.3}%
+\contentsline {subsection}{\numberline {2.2.}Tools and Skills for {Data Science}: {KARTHIK, Nikhil}}{9}{subsection.0.2.2}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{9}{subsubsection*.4}%
+\contentsline {subsubsection}{Part B: Analysis}{9}{subsubsection*.5}%
+\contentsline {subsubsection}{Technical Skills (LaTeX and Git)}{9}{subsubsection*.6}%
+\contentsline {subsection}{\numberline {2.3.}Tools and Skills for {SW Development}: {FAMNAME3, givenName3}}{9}{subsection.0.2.3}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{9}{subsubsection*.7}%
+\contentsline {subsubsection}{Part B: Analysis}{9}{subsubsection*.8}%
+\contentsline {subsubsection}{Technical Skills (LaTeX and Git)}{10}{subsubsection*.9}%
+\contentsline {subsection}{\numberline {2.4.}Tools and Skills for {Cyber Security}: {FAMNAME4, givenName4}}{10}{subsection.0.2.4}%
+\contentsline {subsubsection}{Part A: Exploration of tech tools}{10}{subsubsection*.10}%
+\contentsline {subsubsection}{Part B: Analysis}{10}{subsubsection*.11}%
+\contentsline {subsubsection}{Technical Skills (LaTeX and Git)}{10}{subsubsection*.12}%
+\contentsline {section}{\numberline {3.}Submission contribution overview}{11}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1.}Submission 1 contribution overview}{11}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2.}Submission 2 contribution overview}{11}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3.}Submission 3 contribution overview}{11}{subsection.0.3.3}%
