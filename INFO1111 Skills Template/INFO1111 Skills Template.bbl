@@ -29,4 +29,37 @@
 {SFIA}, ``The global skills and competency framework for the digital world,''
   2022, see \url{https://sfia-online.org/en/sfia-8/all-skills-a-z}.
 
+\bibitem{datasci1}
+\BIBentryALTinterwordspacing
+T.~I. B.~M. Corporation, ``What is machine learning (ml)?'' [Online].
+  Available: \url{https://www.ibm.com/topics/machine-learning}
+\BIBentrySTDinterwordspacing
+
+\bibitem{datasci2}
+\BIBentryALTinterwordspacing
+T.~I. of~Machine Learning~for Data Scientists Simon~Tavasoli, ``The importance
+  of machine learning for data scientists,'' 2023. [Online]. Available:
+  \url{https://www.simplilearn.com/importance-of-machine-learning-for-data-scientists-article}
+\BIBentrySTDinterwordspacing
+
+\bibitem{datasci3}
+\BIBentryALTinterwordspacing
+A.~Ashraf, ``The role of programming in data science,'' 2023. [Online].
+  Available:
+  \url{https://1stepgrow.com/data-science/the-role-of-programming-in-data-science/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{datasci4}
+\BIBentryALTinterwordspacing
+Tableau, ``What is data visualization? definition, examples, and learning
+  resources.'' [Online]. Available:
+  \url{https://www.tableau.com/learn/articles/data-visualization}
+\BIBentrySTDinterwordspacing
+
+\bibitem{datasci5}
+\BIBentryALTinterwordspacing
+E.~B. Kate~Brush, ``data visualisation,'' 2022. [Online]. Available:
+  \url{https://www.techtarget.com/searchbusinessanalytics/definition/data-visualization}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
