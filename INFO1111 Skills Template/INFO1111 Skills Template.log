@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.7)  13 MAR 2024 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.7)  13 MAR 2024 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,7 +500,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 ktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<USyd.jpg, id=59, 257.46187pt x 89.58469pt>
+<USyd.jpg, id=7, 257.46187pt x 89.58469pt>
 File: USyd.jpg Graphic file (type jpg)
 <use USyd.jpg>
 Package pdftex.def Info: USyd.jpg  used on input line 62.
@@ -523,51 +523,90 @@ pdftex.map} <./USyd.jpg>] (INFO1111 Skills Template.toc)
 \tf@toc=\write4
 \openout4 = `"INFO1111 Skills Template.toc"'.
 
- [1] [2] [3]
+ [1]
+
+LaTeX Warning: Citation `usyd2' on page 2 undefined on input line 128.
+
+[2] [3]
+
+LaTeX Warning: Citation `sfia' on page 4 undefined on input line 141.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+[4]
+Overfull \hbox (1.21736pt too wide) in paragraph at lines 201--202
+\T1/cmr/m/n/10.95 [https://www.simplilearn.com/importance-of-machine-learning-f
+or-data-scientists-article]. 
+ []
 
+[5]
+Overfull \hbox (59.99841pt too wide) in paragraph at lines 209--210
+\T1/cmr/m/n/10.95 make it eas-ier to un-der-stand and draw con-clu-sions from [
+https://www.tableau.com/learn/articles/data-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
+Overfull \hbox (60.5964pt too wide) in paragraph at lines 209--210
+\T1/cmr/m/n/10.95 more eas-ily than pure num-bers. [https://www.techtarget.com/
+searchbusinessanalytics/definition/data-
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-[7] [8] [9]
-Overfull \hbox (1.40266pt too wide) in paragraph at lines 399--399
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+[8] [9] [10]
+Overfull \hbox (1.40266pt too wide) in paragraph at lines 409--409
 |[]\T1/cmr/bx/n/13 Tools and Skills for Cy-ber Se-cu-rity: FAM-NAME4, given-Nam
 e4| 
  []
 
-[10] [11] (INFO1111 Skills Template.bbl) [12
+[11] [12] (INFO1111 Skills Template.bbl) [13
 
 ] (INFO1111 Skills Template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `"INFO1111 Skills Template".out' has not chan
-ged.
-(rerunfilecheck)             Checksum: ED16A6174ACBBDC6D634D8F48A32870C;4054.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `"INFO1111 Skills Template".out' has chang
+ed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"INFO1111 Skills Template".out':
+(rerunfilecheck)             Before: 1FB525F4A760D4B88A0043D529F83B0A;223
+(rerunfilecheck)             After:  ED16A6174ACBBDC6D634D8F48A32870C;4054.
  ) 
 Here is how much of TeX's memory you used:
- 11398 strings out of 474457
- 187738 string characters out of 5733819
+ 11388 strings out of 474457
+ 187547 string characters out of 5733819
  1942187 words of memory out of 5000000
- 33509 multiletter control sequences out of 15000+600000
+ 33496 multiletter control sequences out of 15000+600000
  568863 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1191b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1206b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/nikhil/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfou
 r/jknappen/ec/dpi650/ecbx1200.pk> </Users/nikhil/Library/Application Support/Mi
 KTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0800.pk> </Users/nikhil
@@ -582,9 +621,9 @@ ibrary/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi60
 0/ecbx1200.pk> </Users/nikhil/Library/Application Support/MiKTeX/texmfs/data/fo
 nts/pk/ljfour/jknappen/ec/dpi1037/ecbx1200.pk></Users/nikhil/Library/Applicatio
 n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "INFO1111 Skills Template.pdf" (13 pages, 169267 bytes).
+Output written on "INFO1111 Skills Template.pdf" (14 pages, 164065 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 463 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 14 words of extra memory for PDF output out of 10000 (max. 10000000)
 
