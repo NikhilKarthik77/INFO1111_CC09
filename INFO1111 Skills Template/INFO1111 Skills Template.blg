@@ -2,58 +2,57 @@ This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: /Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students)/Semester 1 2024/INFO1111/INFO1111_CC09/INFO1111 Skills Template/INFO1111 Skills Template.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
-I couldn't open style file ieeetran.bst
----line 36 of file /Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students)/Semester 1 2024/INFO1111/INFO1111_CC09/INFO1111 Skills Template/INFO1111 Skills Template.aux
- : \bibstyle{ieeetran
- :                   }
-I'm skipping whatever remains of this command
+The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 5 items.
-I couldn't open database file main.bib
----line 37 of file /Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students)/Semester 1 2024/INFO1111/INFO1111_CC09/INFO1111 Skills Template/INFO1111 Skills Template.aux
- : \bibdata{main
- :              }
-I'm skipping whatever remains of this command
-I found no database files---while reading file /Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students)/Semester 1 2024/INFO1111/INFO1111_CC09/INFO1111 Skills Template/INFO1111 Skills Template.aux
-I found no style file---while reading file /Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students)/Semester 1 2024/INFO1111/INFO1111_CC09/INFO1111 Skills Template/INFO1111 Skills Template.aux
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
 You've used 2 entries,
-            0 wiz_defined-function locations,
-            87 strings with 823 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
+            4087 wiz_defined-function locations,
+            830 strings with 7869 characters,
+and the built_in function-call counts, 846 in all, are:
+= -- 59
+> -- 8
 < -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 4
+- -- 2
+* -- 41
+:= -- 161
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 2
+duplicate$ -- 66
+empty$ -- 75
+format.name$ -- 2
+if$ -- 168
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
+int.to.str$ -- 2
+missing$ -- 16
+newline$ -- 29
+num.names$ -- 2
+pop$ -- 44
+preamble$ -- 1
 purify$ -- 0
-quote$ -- 0
-skip$ -- 0
+quote$ -- 2
+skip$ -- 60
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 6
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
+top$ -- 5
+type$ -- 2
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 4 error messages)
+while$ -- 2
+width$ -- 3
+write$ -- 38
