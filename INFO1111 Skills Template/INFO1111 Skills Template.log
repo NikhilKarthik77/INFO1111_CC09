@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.7)  14 MAR 2024 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.7)  14 MAR 2024 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,7 +413,14 @@ ckend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box52
-) (INFO1111 Skills Template.aux)
+) (INFO1111 Skills Template.aux
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+)
 \openout1 = `"INFO1111 Skills Template.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -529,64 +536,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
  []
 
 [4] [5]
-</Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.04.35.png, id=121, 568.1225p
+</Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students)/Se
+mester 1 2024/INFO1111/skills/pulling from github.png, id=121, 570.13pt x 115.4
+3124pt>
+File: /Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Student
+s)/Semester 1 2024/INFO1111/skills/pulling from github.png Graphic file (type p
+ng)
+<use /Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students
+)/Semester 1 2024/INFO1111/skills/pulling from github.png>
+Package pdftex.def Info: /Users/nikhil/Library/CloudStorage/OneDrive-TheUnivers
+ityofSydney(Students)/Semester 1 2024/INFO1111/skills/pulling from github.png  
+used on input line 212.
+(pdftex.def)             Requested size: 570.12862pt x 115.43095pt.
+
+Overfull \hbox (143.33727pt too wide) in paragraph at lines 212--213
+[][] 
+ []
+
+</Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.04.35.png, id=123, 568.1225p
 t x 342.27875pt>
 File: /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.04.35.png Graphic file 
 (type png)
 <use /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.04.35.png>
 Package pdftex.def Info: /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.04.3
-5.png  used on input line 212.
+5.png  used on input line 218.
 (pdftex.def)             Requested size: 568.1211pt x 342.2779pt.
 
-Overfull \hbox (141.32974pt too wide) in paragraph at lines 212--213
+Overfull \hbox (141.32974pt too wide) in paragraph at lines 218--219
 [][] 
  []
 
-</Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.05.17.png, id=123, 567.11874
+</Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.05.17.png, id=124, 567.11874
 pt x 344.28625pt>
 File: /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.05.17.png Graphic file 
 (type png)
 <use /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.05.17.png>
 Package pdftex.def Info: /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.05.1
-7.png  used on input line 218.
+7.png  used on input line 224.
 (pdftex.def)             Requested size: 567.11736pt x 344.2854pt.
 
-Overfull \hbox (140.326pt too wide) in paragraph at lines 218--219
+Overfull \hbox (140.326pt too wide) in paragraph at lines 224--225
 [][] 
  []
 
-</Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.06.28.png, id=124, 569.12625
+</Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.06.28.png, id=125, 569.12625
 pt x 367.3725pt>
 File: /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.06.28.png Graphic file 
 (type png)
 <use /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.06.28.png>
 Package pdftex.def Info: /Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.06.2
-8.png  used on input line 224.
+8.png  used on input line 230.
 (pdftex.def)             Requested size: 569.12486pt x 367.37158pt.
 
-Overfull \hbox (142.33351pt too wide) in paragraph at lines 224--225
+Overfull \hbox (142.33351pt too wide) in paragraph at lines 230--231
 [][] 
  []
 
-[6 </Users/nikhil/Desktop/Screenshot 2024-03-14 at 17.04.35.png>] [7 </Users/ni
-khil/Desktop/Screenshot 2024-03-14 at 17.05.17.png>] [8 </Users/nikhil/Desktop/
-Screenshot 2024-03-14 at 17.06.28.png>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+[6 </Users/nikhil/Library/CloudStorage/OneDrive-TheUniversityofSydney(Students)
+/Semester 1 2024/INFO1111/skills/pulling from github.png>] [7 </Users/nikhil/De
+sktop/Screenshot 2024-03-14 at 17.04.35.png>] [8 </Users/nikhil/Desktop/Screens
+hot 2024-03-14 at 17.05.17.png>] [9 </Users/nikhil/Desktop/Screenshot 2024-03-1
+4 at 17.06.28.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
 [11] [12] [13]
-Overfull \hbox (1.40266pt too wide) in paragraph at lines 427--427
+Overfull \hbox (1.40266pt too wide) in paragraph at lines 433--433
 |[]\T1/cmr/bx/n/13 Tools and Skills for Cy-ber Se-cu-rity: FAM-NAME4, given-Nam
 e4| 
  []
@@ -600,17 +626,17 @@ L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"INFO1111 Skills Template".out' has not chan
 ged.
 (rerunfilecheck)             Checksum: ED16A6174ACBBDC6D634D8F48A32870C;4054.
  ) 
 Here is how much of TeX's memory you used:
- 11442 strings out of 474457
- 189392 string characters out of 5733819
+ 11450 strings out of 474457
+ 190367 string characters out of 5733819
  1942187 words of memory out of 5000000
- 33539 multiletter control sequences out of 15000+600000
+ 33546 multiletter control sequences out of 15000+600000
  568863 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,1191b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -628,9 +654,9 @@ ibrary/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi60
 0/ecbx1200.pk> </Users/nikhil/Library/Application Support/MiKTeX/texmfs/data/fo
 nts/pk/ljfour/jknappen/ec/dpi1037/ecbx1200.pk></Users/nikhil/Library/Applicatio
 n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "INFO1111 Skills Template.pdf" (17 pages, 1004861 bytes).
+Output written on "INFO1111 Skills Template.pdf" (17 pages, 1070731 bytes).
 PDF statistics:
- 559 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
